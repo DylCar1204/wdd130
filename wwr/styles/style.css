@@ -31,6 +31,11 @@ main section {
   background-color: #6a7b76;
 }
 
+#hero-img {
+  text-align: center;
+  margin: 0 auto;
+}
+
 .home-title {
   color: #007ea7;
 }
