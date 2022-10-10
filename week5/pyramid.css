@@ -1,0 +1,31 @@
+#red {
+  margin: 0 600px;
+  padding: 40px;
+  text-align: center;
+  background-color: red;
+}
+
+#blue {
+  margin: 0 500px;
+  padding: 40px;
+  text-align: center;
+  background-color: blue;
+}
+
+#green {
+  margin: 0 450px;
+  padding: 40px;
+  text-align: center;
+  background-color: green;
+}
+
+#space {
+  margin-bottom: 60px;
+  padding-bottom: 40px;
+}
+
+#empty {
+  background-color: blueviolet;
+  margin-top: 100px;
+  padding-bottom: 200px;
+}
