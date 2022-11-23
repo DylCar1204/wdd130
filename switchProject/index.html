@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles/style.css" />
     <title>Switch Game?</title>
   </head>
   <body>
@@ -12,14 +13,14 @@
         <a id="logo_link" href="index.html">
           <img
             class="logo"
-            src="images/logoColored.png"
+            src="images/logoColored-removebg-preview.png"
             alt="Switch Game Logo"
           />
         </a>
         <nav>
-          <a href="index.html">Home</a>
-          <div class="dropdown">
-            <button class="dropbtn">Dropdown</button>
+          <a href="index.html" id="header1"> Home </a>
+          <div class="dropdown" id="header2">
+            <button class="dropbtn">Games</button>
             <div class="dropdown-content">
               <a href="#">The Legend of Zelda: Breath of the Wild</a>
               <a href="#">Super Mario Odyssey</a>
@@ -27,8 +28,8 @@
             </div>
           </div>
           <!-- <a href="botw-page.html">Breath of the Wild</a> -->
-          <a href="coming-soon.html">Coming Soon</a>
-          <a href="contactus.html">Contact Us</a>
+          <a href="coming-soon.html" id="header3">Coming Soon</a>
+          <a href="contactus.html" id="header4">Contact Us</a>
         </nav>
       </header>
       <div id="hero">
@@ -47,23 +48,43 @@
         </section>
       </div>
       <main>
-        <h1>Select from the list of games below to get started:</h1>
-        <ul>
-          <li>
-            <a href="botw-page.html">The Legend of Zelda: Breath of the Wild</a>
-          </li>
-          <li>Super Mario Odyssey</li>
-          <li>Metroid Dread</li>
-          <li>Super Mario 3D Land + Bowser's Fury</li>
-          <li>Kirby and the Forgotten Land</li>
-        </ul>
-        <ul>
-          <li>Hollow Knight</li>
-          <li>Celeste</li>
-          <li>Hades</li>
-          <li>Undertale</li>
-          <li>Omori</li>
-        </ul>
+        <h1 id="intro">Select from the list of games below to get started:</h1>
+        <section>
+          <ul id="list1">
+            <ul id="leftpoint1">
+              <a href="botw-page.html"
+                >The Legend of Zelda: Breath of the Wild</a
+              >
+            </ul>
+            <ul id="leftpoint2">
+              Super Mario Odyssey
+            </ul>
+            <ul id="leftpoint3">
+              Metroid Dread
+            </ul>
+            <ul id="leftpoint4">
+              Super Mario 3D Land + Bowser's Fury
+            </ul>
+            <ul id="leftpoint5">
+              Kirby and the Forgotten Land
+            </ul>
+            <ul id="rightpoint1">
+              Hollow Knight
+            </ul>
+            <ul id="rightpoint2">
+              Celeste
+            </ul>
+            <ul id="rightpoint3">
+              Hades
+            </ul>
+            <ul id="rightpoint4">
+              Undertale
+            </ul>
+            <ul id="rightpoint5">
+              Omori
+            </ul>
+          </ul>
+        </section>
       </main>
       <footer>
         <p>Switch Game? &copy; 2022 - Dylan Carrasco</p>
