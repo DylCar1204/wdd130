@@ -242,10 +242,150 @@ header {
   padding: 35px;
 }
 
+#GameTitle {
+  display: block;
+  text-align: center;
+  text-decoration: underline;
+}
+
+#gameImage {
+  display: block;
+  width: 1400px;
+  text-align: center;
+  margin: auto auto;
+}
+
+#spacer {
+  height: 25px;
+}
+
+.title {
+  text-align: center;
+  font-size: 33px;
+}
+
+#gameDetails {
+  display: grid;
+  grid-template-columns: 50px 1fr 50px 1fr 50px;
+  background-color: #2e282a;
+  padding: 50px;
+}
+
+.gameinformation {
+  display: grid;
+  grid-template-columns: 1fr 20px 1fr;
+  grid-template-rows: 80px 20px 1fr;
+  font-size: 15px;
+  grid-column: 2;
+  background-color: #17bebb;
+  /* padding: 50px; */
+}
+
+#gridTitle {
+  /* display: grid; */
+  grid-column: 1/4;
+  grid-row: 1;
+  text-align: center;
+  object-fit: cover;
+  /* margin-left: 70px; */
+  /* margin: auto auto; */
+  font-size: 33px;
+  margin-bottom: 30px;
+}
+
+#left {
+  grid-column: 1;
+  grid-row: 2;
+}
+
+#right {
+  grid-column: 3;
+  grid-row: 2;
+}
+
+.similarTo {
+  grid-column: 2;
+  background-color: #17bebb;
+}
+
+.review {
+  grid-column: 4;
+  grid-row: 1;
+  background-color: #17bebb;
+}
+
+.review p {
+  font-size: 16px;
+}
+
+.purchase {
+  grid-column: 4;
+  grid-row: 2;
+  background-color: #17bebb;
+}
+
+.purchaseGrid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 40px;
+  padding-right: 20px;
+  padding-bottom: 20px;
+}
+
+#amazonImg {
+  grid-column: 1;
+  text-align: left;
+  margin: auto auto;
+  padding-left: 0px;
+  width: 75px;
+}
+
+#targetImg {
+  grid-column: 1;
+  grid-row: 2;
+  text-align: left;
+  margin: auto auto;
+  padding-left: 0px;
+  width: 75px;
+}
+
+#walmartImg {
+  grid-column: 1;
+  grid-row: 3;
+  text-align: left;
+  margin: auto auto;
+  padding-left: 0px;
+  width: 75px;
+}
+
+#gamestopImg {
+  grid-column: 1;
+  grid-row: 4;
+  text-align: left;
+  margin: auto auto;
+  padding-left: 0px;
+  width: 75px;
+}
+
+.link {
+  background-color: #ef3e36;
+  color: white;
+  padding: 14px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+
+.link:hover,
+.link:active {
+  background-color: red;
+  /* color: #2e282a; */
+}
+
 footer {
   background-color: #ece2d0;
   padding: 25px 50px;
-  margin-top: 200px;
+  margin-top: 100px;
   display: flex;
   justify-content: space-around;
   align-items: center;
