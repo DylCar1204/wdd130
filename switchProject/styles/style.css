@@ -384,6 +384,7 @@ header {
 
 #comingSoon {
   text-align: center;
+  text-decoration: underline;
   display: block;
   margin: auto auto;
   margin-top: 100px;
@@ -391,9 +392,18 @@ header {
   color: #2e282a;
 }
 
+.gray {
+  background-color: #2e282a;
+  margin: auto auto;
+  padding: 50px;
+  /* width: 1200px; */
+}
+
 .container {
   position: relative;
   width: 50%;
+  border-color: #00e5e8;
+  border-width: 10px;
 }
 
 #containerLocation {
