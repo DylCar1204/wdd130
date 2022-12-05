@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Switch Game?</title>
+    <link rel="stylesheet" href="styles/style.css" />
   </head>
   <body>
     <div id="content">
@@ -12,43 +13,106 @@
         <a id="logo_link" href="index.html">
           <img
             class="logo"
-            src="images/logoColored.png"
+            src="images/logoColored-removebg-preview.png"
             alt="Switch Game Logo"
           />
         </a>
         <nav>
-          <a href="index.html">Home</a>
-          <div class="dropdown">
-            <button class="dropbtn">Dropdown</button>
+          <a href="index.html" id="header1"> Home </a>
+          <div class="dropdown" id="header2">
+            <button class="dropbtn">Games</button>
             <div class="dropdown-content">
-              <a href="#">The Legend of Zelda: Breath of the Wild</a>
+              <a href="botw-page.html"
+                >The Legend of Zelda: Breath of the Wild</a
+              >
               <a href="#">Super Mario Odyssey</a>
               <a href="#">Hollow Knight</a>
             </div>
           </div>
           <!-- <a href="botw-page.html">Breath of the Wild</a> -->
-          <a href="coming-soon.html">Coming Soon</a>
-          <a href="contactus.html">Contact Us</a>
+          <a href="coming-soon.html" id="header3">Coming Soon</a>
+          <a href="contactus.html" id="header4">Contact Us</a>
         </nav>
       </header>
       <main>
-        <h1>Coming Soon:</h1>
+        <h1 id="comingSoon">Coming Soon:</h1>
         <div>
-          <div>
+          <div class="container" id="containerLocation">
+            <img
+              src="images/tearsofthekingdom.jpg"
+              alt="The Legend of Zelda: Tears of the Kingdom"
+              class="image"
+            />
+            <div class="overlay">
+              <div class="text">The Legend of Zelda: Tears of the Kingdom</div>
+              <div class="text">&nbsp;</div>
+              <div class="text">Release Date: 5/12/2023</div>
+              <div class="text">Developer: Nintendo</div>
+              <div class="text">Genre: Adventure, Open World, Action</div>
+            </div>
+          </div>
+          <div id="spacer"></div>
+          <!-- <div>
             <h3>The Legend of Zelda: Tears of the Kingdom</h3>
             <img
               src="images/tearsofthekingdom.jpg"
               alt="Tears of the Kingdom"
             />
+          </div> -->
+          <div class="container" id="containerLocation">
+            <img
+              src="images/metroidprime4.jpeg"
+              alt="Metroid Prime 4"
+              class="image"
+            />
+            <div class="overlay">
+              <div class="text">Metroid Prime: 4</div>
+              <div class="text">&nbsp;</div>
+              <div class="text">Release Date: TBD</div>
+              <div class="text">Developer: Nintendo</div>
+              <div class="text">Genre: Action, Adventure, Shooter</div>
+            </div>
           </div>
-          <div>
+          <div id="spacer"></div>
+          <!-- <div>
             <h3>Metroid Prime 4</h3>
             <img src="images/metroidprime4.jpeg" alt="Metroid Prime 4" />
+          </div> -->
+          <div class="container" id="containerLocation">
+            <img
+              src="images/silksong.jpg"
+              alt="Hollow Knight: Silksong"
+              class="image"
+            />
+            <div class="overlay">
+              <div class="text">Hollow Knight: Silksong</div>
+              <div class="text">&nbsp;</div>
+              <div class="text">Release Date: TBD</div>
+              <div class="text">Developer: Team Cherry</div>
+              <div class="text">Genre: Action, Adventure, 2D, Metroidvania</div>
+            </div>
           </div>
-          <div>
+          <div id="spacer"></div>
+          <div class="container" id="containerLocation">
+            <img
+              src="images/HogwartsLegacy.jpg"
+              alt="Hogwarts Legacy"
+              class="image"
+            />
+            <div class="overlay">
+              <div class="text">Hogwarts Legacy</div>
+              <div class="text">&nbsp;</div>
+              <div class="text">Release Date: 2/10/23</div>
+              <div class="text">
+                Developer: Warner Bros. Interactive Entertainment
+              </div>
+              <div class="text">Genre: Action, Adventure, Open-World</div>
+            </div>
+          </div>
+          <!-- <div>
             <h3>Hollow Knight: Silksong</h3>
             <img src="images/silksong.jpg" alt="Hollow Knight: Silksong" />
-          </div>
+          </div> -->
         </div>
       </main>
       <footer>
